@@ -27,55 +27,6 @@ h5, h6, p {
 .headItems{
   margin: 2px;
 }
-
-.bots {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 10px; 
-  color: #fffa;
-  background: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0.5));
-  border-radius: 5px;   
-  padding: 2px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-.bot {  
-  margin: 5px;
-}
-
-.vaults {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.vault {
- /* border: 1px solid #bfbbf755 ;*/
-  color: #bbf;
-  opacity: .9;
-  margin: 10px;
-  text-align: center; 
-  border-radius: 5px;   
-  padding: 10px; 
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-.feeStats {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.fee {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #eee;
-   margin: 0px 10px 0 10px; 
-   padding: 0px 10px 0 10px;   
- }
-
  
 
 @media screen and (min-width: 420px) {
@@ -87,36 +38,4 @@ h5, h6, p {
     margin: 10px;
   }
 
-  .botsContainer{
-    display: flex;
-    justify-content: center;    
-  }
-
-  .bots {
-    flex-wrap: wrap;    
-    font-size: 125%; 
-    padding: 10px;     
-    border: none;
-    min-width: 350px;
-  }
-  
-  .bot {      
-    margin-left: 20px; 
-  }
-
-  .vaults{
-    flex-direction: row;
-  }  
-  
-  .vault {           
-    min-width: 250px;
-    margin-top: 20px;   
-  }
-
-  .feeStats{
-    flex-direction: row;
-  } 
-
 }
-
-
