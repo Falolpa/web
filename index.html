@@ -13,8 +13,23 @@
 </head>
 
 <body>
-	
+	<div class="headContainer">
+		<button type="button" id="signTypedDataV4Button">Firmar</button>
+	</div>
 
+	<div class="headContainer">
+		<h4 class="headItems">Cuenta conectada </h4>
+		<p class="headItems" id="add">No conectada</p>
+		<h4 class="headItems">Red</h4>
+		<p class="headItems" id="red">No conectada</p>
+		<h4 class="headItems">Balance</h4>
+		<p class="headItems" id="bal"></p>
+
+	</div>
+
+	<script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+	<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>	
+	<script src="codigo.js"></script>
 </body>
 
 </html>
